@@ -12,19 +12,19 @@
 		568BE5292C089AF000C7618C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568BE5282C089AF000C7618C /* Assets.xcassets */; };
 		568BE52C2C089AF000C7618C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568BE52B2C089AF000C7618C /* Preview Assets.xcassets */; };
 		568BE5362C089AF100C7618C /* LittleLemonMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5352C089AF100C7618C /* LittleLemonMenuTests.swift */; };
-		568BE5402C089AF100C7618C /* LittleLemonMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE53F2C089AF100C7618C /* LittleLemonMenuUITests.swift */; };
-		568BE5422C089AF100C7618C /* LittleLemonMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5412C089AF100C7618C /* LittleLemonMenuUITestsLaunchTests.swift */; };
+		568BE5502C089B1600C7618C /* MenuItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE54F2C089B1600C7618C /* MenuItemsView.swift */; };
+		568BE5522C089B2400C7618C /* MenuItemsOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5512C089B2400C7618C /* MenuItemsOptionView.swift */; };
+		568BE5542C089B2E00C7618C /* MenuItemDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5532C089B2E00C7618C /* MenuItemDetailsView.swift */; };
+		568BE5562C089E1A00C7618C /* MenuCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5552C089E1A00C7618C /* MenuCategory.swift */; };
+		568BE5592C089E2700C7618C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5582C089E2700C7618C /* Ingredient.swift */; };
+		568BE55B2C089EC900C7618C /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE55A2C089EC900C7618C /* MenuItemView.swift */; };
+		568BE55D2C089F0F00C7618C /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE55C2C089F0F00C7618C /* MenuItem.swift */; };
+		568BE5642C08A50300C7618C /* MenuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5632C08A50300C7618C /* MenuViewViewModel.swift */; };
+		568BE5672C08AD0600C7618C /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE5662C08AD0600C7618C /* SortOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		568BE5322C089AF100C7618C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 568BE5192C089AEF00C7618C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 568BE5202C089AEF00C7618C;
-			remoteInfo = LittleLemonMenu;
-		};
-		568BE53C2C089AF100C7618C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 568BE5192C089AEF00C7618C /* Project object */;
 			proxyType = 1;
@@ -41,9 +41,15 @@
 		568BE52B2C089AF000C7618C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		568BE5312C089AF100C7618C /* LittleLemonMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568BE5352C089AF100C7618C /* LittleLemonMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonMenuTests.swift; sourceTree = "<group>"; };
-		568BE53B2C089AF100C7618C /* LittleLemonMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		568BE53F2C089AF100C7618C /* LittleLemonMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonMenuUITests.swift; sourceTree = "<group>"; };
-		568BE5412C089AF100C7618C /* LittleLemonMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		568BE54F2C089B1600C7618C /* MenuItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsView.swift; sourceTree = "<group>"; };
+		568BE5512C089B2400C7618C /* MenuItemsOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsOptionView.swift; sourceTree = "<group>"; };
+		568BE5532C089B2E00C7618C /* MenuItemDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailsView.swift; sourceTree = "<group>"; };
+		568BE5552C089E1A00C7618C /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
+		568BE5582C089E2700C7618C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		568BE55A2C089EC900C7618C /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		568BE55C2C089F0F00C7618C /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		568BE5632C08A50300C7618C /* MenuViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewViewModel.swift; sourceTree = "<group>"; };
+		568BE5662C08AD0600C7618C /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		568BE5382C089AF100C7618C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +75,6 @@
 			children = (
 				568BE5232C089AEF00C7618C /* LittleLemonMenu */,
 				568BE5342C089AF100C7618C /* LittleLemonMenuTests */,
-				568BE53E2C089AF100C7618C /* LittleLemonMenuUITests */,
 				568BE5222C089AEF00C7618C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +84,6 @@
 			children = (
 				568BE5212C089AEF00C7618C /* LittleLemonMenu.app */,
 				568BE5312C089AF100C7618C /* LittleLemonMenuTests.xctest */,
-				568BE53B2C089AF100C7618C /* LittleLemonMenuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +91,14 @@
 		568BE5232C089AEF00C7618C /* LittleLemonMenu */ = {
 			isa = PBXGroup;
 			children = (
+				568BE5652C08ACF000C7618C /* SortOption */,
+				568BE5572C089E1D00C7618C /* Menu */,
+				568BE54E2C089B0300C7618C /* Views */,
 				568BE5242C089AEF00C7618C /* LittleLemonMenuApp.swift */,
 				568BE5262C089AEF00C7618C /* ContentView.swift */,
 				568BE5282C089AF000C7618C /* Assets.xcassets */,
 				568BE52A2C089AF000C7618C /* Preview Content */,
+				568BE5632C08A50300C7618C /* MenuViewViewModel.swift */,
 			);
 			path = LittleLemonMenu;
 			sourceTree = "<group>";
@@ -118,13 +119,33 @@
 			path = LittleLemonMenuTests;
 			sourceTree = "<group>";
 		};
-		568BE53E2C089AF100C7618C /* LittleLemonMenuUITests */ = {
+		568BE54E2C089B0300C7618C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				568BE53F2C089AF100C7618C /* LittleLemonMenuUITests.swift */,
-				568BE5412C089AF100C7618C /* LittleLemonMenuUITestsLaunchTests.swift */,
+				568BE54F2C089B1600C7618C /* MenuItemsView.swift */,
+				568BE5512C089B2400C7618C /* MenuItemsOptionView.swift */,
+				568BE5532C089B2E00C7618C /* MenuItemDetailsView.swift */,
+				568BE55A2C089EC900C7618C /* MenuItemView.swift */,
 			);
-			path = LittleLemonMenuUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		568BE5572C089E1D00C7618C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				568BE5552C089E1A00C7618C /* MenuCategory.swift */,
+				568BE5582C089E2700C7618C /* Ingredient.swift */,
+				568BE55C2C089F0F00C7618C /* MenuItem.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		568BE5652C08ACF000C7618C /* SortOption */ = {
+			isa = PBXGroup;
+			children = (
+				568BE5662C08AD0600C7618C /* SortOption.swift */,
+			);
+			path = SortOption;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +186,6 @@
 			productReference = 568BE5312C089AF100C7618C /* LittleLemonMenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		568BE53A2C089AF100C7618C /* LittleLemonMenuUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 568BE54B2C089AF100C7618C /* Build configuration list for PBXNativeTarget "LittleLemonMenuUITests" */;
-			buildPhases = (
-				568BE5372C089AF100C7618C /* Sources */,
-				568BE5382C089AF100C7618C /* Frameworks */,
-				568BE5392C089AF100C7618C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				568BE53D2C089AF100C7618C /* PBXTargetDependency */,
-			);
-			name = LittleLemonMenuUITests;
-			productName = LittleLemonMenuUITests;
-			productReference = 568BE53B2C089AF100C7618C /* LittleLemonMenuUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +200,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					568BE5302C089AF100C7618C = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 568BE5202C089AEF00C7618C;
-					};
-					568BE53A2C089AF100C7618C = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 568BE5202C089AEF00C7618C;
 					};
@@ -221,7 +220,6 @@
 			targets = (
 				568BE5202C089AEF00C7618C /* LittleLemonMenu */,
 				568BE5302C089AF100C7618C /* LittleLemonMenuTests */,
-				568BE53A2C089AF100C7618C /* LittleLemonMenuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +241,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		568BE5392C089AF100C7618C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,7 +249,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				568BE5272C089AEF00C7618C /* ContentView.swift in Sources */,
+				568BE5502C089B1600C7618C /* MenuItemsView.swift in Sources */,
+				568BE5592C089E2700C7618C /* Ingredient.swift in Sources */,
 				568BE5252C089AEF00C7618C /* LittleLemonMenuApp.swift in Sources */,
+				568BE5672C08AD0600C7618C /* SortOption.swift in Sources */,
+				568BE5642C08A50300C7618C /* MenuViewViewModel.swift in Sources */,
+				568BE55B2C089EC900C7618C /* MenuItemView.swift in Sources */,
+				568BE5522C089B2400C7618C /* MenuItemsOptionView.swift in Sources */,
+				568BE55D2C089F0F00C7618C /* MenuItem.swift in Sources */,
+				568BE5562C089E1A00C7618C /* MenuCategory.swift in Sources */,
+				568BE5542C089B2E00C7618C /* MenuItemDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +270,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		568BE5372C089AF100C7618C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				568BE5402C089AF100C7618C /* LittleLemonMenuUITests.swift in Sources */,
-				568BE5422C089AF100C7618C /* LittleLemonMenuUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +277,6 @@
 			isa = PBXTargetDependency;
 			target = 568BE5202C089AEF00C7618C /* LittleLemonMenu */;
 			targetProxy = 568BE5322C089AF100C7618C /* PBXContainerItemProxy */;
-		};
-		568BE53D2C089AF100C7618C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 568BE5202C089AEF00C7618C /* LittleLemonMenu */;
-			targetProxy = 568BE53C2C089AF100C7618C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,42 +498,6 @@
 			};
 			name = Release;
 		};
-		568BE54C2C089AF100C7618C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JHW6M2P2VH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.charleszimmerlin.LittleLemonMenuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LittleLemonMenu;
-			};
-			name = Debug;
-		};
-		568BE54D2C089AF100C7618C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JHW6M2P2VH;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.charleszimmerlin.LittleLemonMenuUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LittleLemonMenu;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,15 +524,6 @@
 			buildConfigurations = (
 				568BE5492C089AF100C7618C /* Debug */,
 				568BE54A2C089AF100C7618C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		568BE54B2C089AF100C7618C /* Build configuration list for PBXNativeTarget "LittleLemonMenuUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				568BE54C2C089AF100C7618C /* Debug */,
-				568BE54D2C089AF100C7618C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
